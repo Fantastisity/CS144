@@ -12,8 +12,12 @@ using namespace std;
 
 #define mp make_pair
 
-//! \brief A class that assembles a series of excerpts from a byte stream (possibly out of order,
-//! possibly overlapping) into an in-order byte stream.
+/*
+  The TCP sender is dividing its byte stream up into short segments (substrings no more than
+  about 1,460 bytes apiece) so that they each fit inside a datagram. But the network might
+  reorder these datagrams, or drop them, or deliver them more than once. The receiver must
+  reassemble the segments into the contiguous stream of bytes that they started out as
+*/
 class StreamReassembler {
   private:
     // Your code here -- add private members as necessary.
