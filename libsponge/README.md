@@ -1,2 +1,2 @@
 ## Overview
-![Project Overview](./imgs/overview.png)
+![Project Overview](../imgs/overview.png)
