@@ -5,4 +5,4 @@
 ![Tcp Sender](../imgs/tcpsender.png)
 
 ## Tcp Receiver
-![Tcp Receiver](../imgs/tcpreceiver.png)
+![Tcp Receiver](../imgs/tcpreceiver.jpg)
