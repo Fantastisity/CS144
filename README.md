@@ -1,1 +1,2 @@
-## CS144 LAB 0-4
+## CS144 LAB 
+### Checkpoint 0-4
